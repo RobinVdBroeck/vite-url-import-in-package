@@ -1,0 +1,13 @@
+{
+  "name": "my-library-with-url",
+  "version": "0.0.1",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./package.json": "./package.json"
+  },
+  "type": "module",
+  "dependencies": {
+    "pdfjs-dist": "4.6.82"
+  }
+}
